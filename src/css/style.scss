@@ -1,0 +1,44 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: sans-serif;
+
+  h1 {
+    text-align: center;
+  }
+
+  .produtos {
+    display: flex;
+    
+    .box-produto {
+      display: flex;
+
+      .descricao {
+        padding: 0 1em;
+        text-align: center;
+
+        .preco {
+          font-size: 2em;
+          margin: 0 auto;
+        }
+
+        .btn-comprar {
+          text-decoration: none;
+          margin-top: 1em;
+          display: block;
+          background-color: #f75813;
+          padding: 0.5em;
+          font-size: 1.5em;
+          font-weight: bold;
+          color: #fff;
+          border-radius: 10px;
+
+          &:hover {
+            background-color: #f75813b8;
+          }
+        }
+      }
+    }  
+  }
+}

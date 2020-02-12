@@ -1,0 +1,27 @@
+{
+  "name": "lojavirtual-frontend",
+  "version": "1.0.0",
+  "description": "This branch is destined to store client-side files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavo-mf/LojaVirtual.git"
+  },
+  "author": "Gustavo-Mf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavo-mf/LojaVirtual/issues"
+  },
+  "homepage": "https://github.com/gustavo-mf/LojaVirtual#readme",
+  "dependencies": {
+    "pagarme": "^4.5.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
